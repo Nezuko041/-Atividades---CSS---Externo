@@ -1,0 +1,55 @@
+body {
+    background-color: gray;
+}
+h1 {
+    color: blue;
+    text-decoration: underline;
+    margin: 20px;
+    padding: 20px;
+}
+.container {
+    border: 2px solid red; /* Borda vermelha em todos os lados */
+    background-color: beige; /* Fundo bege */
+    padding: 20px; /* Espaçamento interno */
+    width: fit-content; /* Ajusta a largura ao conteúdo */
+    margin: 20px 0 20px 20px; /* Margens superior e inferior, margem esquerda */
+}
+ul {
+    list-style-type: none; /* Remove o marcador padrão */
+    padding: 0; /* Remove o padding padrão */
+    position: relative; /* Para o posicionamento do pseudo-elemento */
+    padding-left: 20px; /* Ajustado para mais espaço à esquerda */
+    margin: 10px 0; /* Espaço entre as listas */
+}
+li.star {
+    position: relative; /* Para o posicionamento da imagem */
+    padding-left: 30px; /* Espaço para a imagem do li */
+}
+li.star::before {
+    content: '';
+    background-image: url('Star.png'); /* Caminho da imagem da estrela */
+    background-size: contain; /* Ajusta o tamanho da imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    position: absolute; /* Posiciona a imagem em relação ao li */
+    left: 0; /* Alinha à esquerda */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajusta a centralização */
+    width: 30px; /* Largura da imagem */
+    height: 30px; /* Altura da imagem */
+}
+li.check {
+    position: relative; /* Para o posicionamento da imagem */
+    padding-left: 30px; /* Espaço para a imagem do li */
+}
+li.check::before {
+    content: '';
+    background-image: url('Check.png'); /* Caminho da imagem de verificação */
+    background-size: contain; /* Ajusta o tamanho da imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    position: absolute; /* Posiciona a imagem em relação ao li */
+    left: 0; /* Alinha à esquerda */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajusta a centralização */
+    width: 20px; /* Largura da imagem */
+    height: 20px; /* Altura da imagem */
+}

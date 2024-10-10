@@ -1,0 +1,45 @@
+h1.titulo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2px;
+    border: 2px solid white;
+}
+
+body {
+    background-color: gray;
+}
+
+p.text01 {
+    background-color: rgba(240, 240, 100, 1);
+    padding: 15px;
+    margin-right: 40%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+p.text02 {
+    background-color: #66CCFF;
+    font-size: 20px;
+    text-align: justify;
+    display: flex;
+    border-style: dotted;
+    padding: 20px;
+    margin-top: 20px;
+    }
+    .containerp2{text-align-last: justify;
+        align-items: flex-start;
+        display: table;
+}
+
+p.text03 {
+    background-color: rgb(15, 200, 0);
+    padding: 20px;
+    margin-left: 40%;
+    font-size: 18px;    
+    text-align: justify;
+}
+
+img{
+    margin: 7px;
+    padding: 5px;
+}

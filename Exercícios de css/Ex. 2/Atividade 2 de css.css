@@ -1,0 +1,46 @@
+
+/* Cor do backgrodund, tamanho da fonte, fonte, margem interna e externa e borda de cada classe de parágrafo */
+
+p.www {background-color:#ffff99; 
+    font-family: tahoma;
+    font-size: 14px;
+    margin: 10px 10px 20px 10px;
+    padding: 10px;
+}
+
+p.ideias {background-color: #66ccff;
+    font-family: tahoma;
+    font-size: 14px;
+    margin: 10px 10px 20px 10px;
+    padding: 10px;
+}
+p.conceito {background-color:#99ff66;
+    font-family: tahoma;
+    font-size: 14px;
+    margin: 10px 10px 20px 10px;
+    padding: 10px;
+}
+
+/* Formatação de cada h1 - sub-título */
+.inicio {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+    color:maroon;
+}
+
+.desenvolvimento {
+    font-family:arial;
+    font-weight: bold;
+    font-size: 20px;
+    Color: #ffcc00;
+}
+
+.implementação {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: maroon;
+
+}
+

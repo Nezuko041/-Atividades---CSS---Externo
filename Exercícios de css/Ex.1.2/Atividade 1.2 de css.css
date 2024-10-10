@@ -1,0 +1,25 @@
+/* Bacground da página */
+body {background-color: hsl(0, 0%, 40%);}
+
+/* Cor do backgrodund, tamanho da fonte, fonte e margem de cada classe */
+p.www {background-color:#ffff99; 
+    font-family: tahoma;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+p.ideias {background-color: #66ccff;
+    font-family: tahoma;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 300px;
+    border: dotted black;
+}
+p.conceito {background-color:#99ff66;
+    font-family: tahoma;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
